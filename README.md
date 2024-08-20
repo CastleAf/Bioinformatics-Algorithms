@@ -1,9 +1,7 @@
 # BioInformatics Algorithms
 
 <p align="left">
-  <img src="https://companieslogo.com/img/orig/COUR_BIG-e3284ace.png?t=1720244491" height="28" title="Coursera">
-  <br><br>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmdFAg7owxeOT9tM-u7fPQ2_7ev3MDGZOdKw&s" height="40" title="UC San Diego">
+  <img src="https://companieslogo.com/img/orig/COUR_BIG-e3284ace.png?t=1720244491" width="100" title="Coursera">
 </p>
 
 This repository stores all the programs I've written while attending Coursera's online [Bioinformatics Specialization](https://www.coursera.org/specializations/bioinformatics). This specialization focuses on teaching Bioinformatics for both learners with biology or computer science backgrounds. The Honors path (the path I followed) uses an external tool - [Cogniterra](https://cogniterra.org/). This path adds a more in depth explanation of the algorithms and involves a series of exercises to solve by coding.
