@@ -1,7 +1,8 @@
 # BioInformatics Algorithms
 
 <p align="left">
-  <img src="https://companieslogo.com/img/orig/COUR_BIG-e3284ace.png?t=1720244491" height="30" title="Coursera" style="margin-bottom: 5px; margin-right: 30px;">
+  <img src="https://companieslogo.com/img/orig/COUR_BIG-e3284ace.png?t=1720244491" height="28" title="Coursera">
+  <br><br>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmdFAg7owxeOT9tM-u7fPQ2_7ev3MDGZOdKw&s" height="40" title="UC San Diego">
 </p>
 
