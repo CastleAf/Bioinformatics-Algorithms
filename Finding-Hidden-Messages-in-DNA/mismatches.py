@@ -42,7 +42,7 @@ def approximatePatternCount(pattern: str, dnaString: str, d: int) -> int:
     return len(indexes)
 
 
-def immediateNeighbours(pattern: str) -> set:
+def immediateNeighbours(pattern: str) -> set[str]:
     """Generates the immediate neighbourhood (Hamming distance of 1, i.e., 1 mismatch)
     for a given pattern."""
 
@@ -62,7 +62,7 @@ def immediateNeighbours(pattern: str) -> set:
     return neighbourhood
 
 
-def neighbours(pattern: str, d: int) -> set:
+def neighbours(pattern: str, d: int) -> set[str]:
     """Generates the neighbours of a pattern with a hamming distance of up to d."""
 
     if d == 0:
@@ -213,8 +213,8 @@ def main() -> None:
     with open("results/neighbours.txt", "w") as output:
         res = neighbours(pattern, distance)
 
-        for result in res:
-            output.write(f"{result} ")
+        for resultNeighbour in res:
+            output.write(f"{resultNeighbour} ")
 
         # Remove the last space
         output.seek(output.tell() - 1)
@@ -240,8 +240,8 @@ def main() -> None:
             text, int(params[0]), int(params[1]), True
         )
 
-        for result in res:
-            output.write(f"{result} ")
+        for resultingStr in res:
+            output.write(f"{resultingStr} ")
 
         # Remove the last space
         output.seek(output.tell() - 1)
